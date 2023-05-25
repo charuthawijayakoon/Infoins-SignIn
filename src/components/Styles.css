@@ -1,0 +1,160 @@
+/* Body ===================================================================================================== */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Roboto' !important; */
+}
+
+body {
+    background-color: #22316C ;
+    overflow: hidden !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_grid {
+    color: #2D4190 !important;
+    padding: 40px 100px 32px 100px !important;
+}
+
+/* Right Container ========================================================================================== */
+
+.right_container {
+    padding: 68px 0 100px 0 !important;
+    background-color: #2D4190 !important;
+    border-radius: 0 8px 8px 0 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+.right_container_heading {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 100px;
+}
+
+.right_container_paragraph {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 100px;
+    font-weight: 100;
+}
+
+.welcome_text {
+    display: block;
+    padding: 20px 0 0 0;
+}
+
+/* Left Container =========================================================================================== */
+
+.heading_column {
+    text-align: left;
+    padding-left: 75px;
+}
+
+.left_container {
+     padding: 24px 0 24px 18px !important;
+     background-color: #ffffff !important;
+     border-radius: 8px 0 0 8px !important;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* .site_logo {
+    padding-left: -56px;
+} */
+
+.left_container_item {
+    background-color: #FFFFFF !important;
+    border-radius: 8px !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+.left_container_heading {
+    color: black;
+    letter-spacing: -0.02em;
+}
+
+.left_container_heading_paragraph {
+    color: #323232;
+    font-size: 12px;
+}
+
+.signin_link {
+    color: #22316C;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.signin_class {
+    padding-left: 75px;
+}
+
+.bottom_container {
+    padding-left: 75px;
+}
+
+/* Text Fields ============================================================================================== */
+
+.check_mark{
+    /* font-family: "Roboto" !important; */
+    font-style: normal !important ;
+    font-weight: 400 !important ;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #474842 !important;
+    flex: none !important;
+    order: 1 !important;
+    flex-grow: 0 !important;
+}
+
+.text_fields {
+    width: 400px;
+    height: 46px;
+}
+
+.signin_class .forgot_password{
+    color: #2D4190 !important;
+    text-transform: none !important;
+    font-size: 14px;
+    }
+
+.signin_btn {
+    background: #2D4190 !important;
+    border-radius: 30px !important;
+    width: 400px !important;
+    height: 55px;
+    /* padding-left: 72px; */
+}
+
+.login_fields {
+    display: block;
+    padding-left: 72px;
+}
+
+/* Navigating to a New Line ================================================================================= */
+
+.next_line {
+    display: block !important;
+}
+
+/* Footer =================================================================================================== */
+
+.footer {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #8A8A8A;
+    padding-right: 80px;
+}
+
+/* Meedia Queries =========================================================================================== */
+
+/* @media screen and (max-width: 600px) {
+    .text_fields {
+      width: 50%;
+      margin-top: 0;
+    }
+  } */
